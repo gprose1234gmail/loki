@@ -195,9 +195,7 @@ async def start_command(_, message):
                         InlineKeyboardButton(
                             text="🎥 Watch Youtube Video", url=f"{link}"
                         ),
-                        InlineKeyboardButton(
-                            text="🔄 Close", callback_data="close"
-                        ),
+                        
                     ],
                 ]
             )
@@ -263,12 +261,8 @@ All commands can be used with: /
         key = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(
-                        text="↪️ Back", callback_data="help_back"
-                    ),
-                    InlineKeyboardButton(
-                        text="🔄 Close", callback_data="close"
-                    ),
+                    
+                    
                 ],
             ]
         )
